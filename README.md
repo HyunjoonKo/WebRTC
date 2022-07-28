@@ -40,8 +40,8 @@ gclient sync
 ```shellscript
 sh src/tools_webrtc/ios/build_ios_libs.sh
 ```
-The output of the script execution is src/out_ios_libs/WebRTC.xcframework.
-The framework can be slightly lighter. Adjust the ENABLED_ARCHS and DEFAULT_ARCHS values in src/tools_webrtc/ios/build_ios_libs.py.
+The output of the script execution is `src/out_ios_libs/WebRTC.xcframework`.
+The framework can be slightly lighter. Adjust the `ENABLED_ARCHS` and `DEFAULT_ARCHS` values in `src/tools_webrtc/ios/build_ios_libs.py`.
 
 #### Error solution
 
@@ -54,8 +54,8 @@ If there is no dsymutil executable in `src/tools/clang/dsymutil`, do the followi
 ```shellscript
 cd src/tools/clang/dsymutil
 
-#Find a recent dsymutil tarball: http://commondatastorage.googleapis.com/chromium-browser-clang-staging/index.html
 curl -O http://commondatastorage.googleapis.com/chromium-browser-clang-staging/$arch/dsymutil-llvmorg-15-init-17673-gd485c1b7-1.tgz
 
 tar -zxvf dsymutil-llvmorg-15-init-17673-gd485c1b7-1.tgz
 ```
+Find a recent dsymutil tarball: http://commondatastorage.googleapis.com/chromium-browser-clang-staging/index.html
