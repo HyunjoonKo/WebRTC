@@ -53,7 +53,9 @@ python3 src/tools/clang/scripts/update.py
 If there is no dsymutil executable in `src/tools/clang/dsymutil`, do the following:
 ```shellscript
 cd src/tools/clang/dsymutil
-# Find a recent dsymutil tarball: http://commondatastorage.googleapis.com/chromium-browser-clang-staging/index.html
+
+#Find a recent dsymutil tarball: http://commondatastorage.googleapis.com/chromium-browser-clang-staging/index.html
 curl -O http://commondatastorage.googleapis.com/chromium-browser-clang-staging/$arch/dsymutil-llvmorg-15-init-17673-gd485c1b7-1.tgz
+
 tar -zxvf dsymutil-llvmorg-15-init-17673-gd485c1b7-1.tgz
 ```
