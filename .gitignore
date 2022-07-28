@@ -14,3 +14,5 @@ out
 depot_tools
 src
 token.txt
+*.xcframework
+*.zip
