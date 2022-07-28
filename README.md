@@ -41,7 +41,7 @@ gclient sync
 sh src/tools_webrtc/ios/build_ios_libs.sh
 ```
 The output of the script execution is `src/out_ios_libs/WebRTC.xcframework`.
-The framework can be slightly lighter. Adjust the `ENABLED_ARCHS` and `DEFAULT_ARCHS` values in `src/tools_webrtc/ios/build_ios_libs.py`.
+If you want to further reduce the size of the framework, adjust the `ENABLED_ARCHS` and `DEFAULT_ARCHS` values in the `src/tools_webrtc/ios/build_ios_libs.py` file.
 
 #### Error solution
 
