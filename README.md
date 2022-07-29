@@ -15,7 +15,7 @@ Download the XCFramework at [Release](https://github.com/HyunjoonKo/WebRTC/relea
 
 ### Swift Package Manager 
 
-Requires Swift 5.3 / Xcode 12+.
+Requires Swift 5.6.1 / Xcode 13.4.1
 
 Add WebRTC repository https://github.com/HyunjoonKo/WebRTC.git via Swift Package Manager
 
